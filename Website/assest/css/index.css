@@ -1,0 +1,17 @@
+body 
+{
+  background-image: url('../img/bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#particles-js {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 99.9%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
