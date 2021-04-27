@@ -2,13 +2,30 @@
 
 function searchNames() {
     document.getElementById("results").innerHTML = ""
-    searchBar = document.getElementById("search").value.toLowerCase;
-    let possibleResults = names.filter(elem => elem.toLowerCase.startsWith(searchBar));
+    searchBar = document.getElementById("search").value.toLowerCase();
+    var possibleResultsIndexes = '';
+    let possibleResults = names.filter(function fillers(elem, index) {
+        if (elem.name.toLowerCase().startsWith(searchBar)) {
+            possibleResultsIndexes += index;
+            return elem.name.toLowerCase().startsWith(searchBar)
+        }
 
-    for (let result of possibleResults) {
-        document.getElementById("results").innerHTML += "<li>" + result + "</li>";
+    })
+    for (let i = 0; i < possibleResults.length; i++) {
+        document.getElementById("results").innerHTML += "<li onclick =\"showID(this.id)\" id= \"" + possibleResultsIndexes[i] + "\">" + possibleResults[i].name + "</li>";
     }
+    return
 }
+function showID(index) {
+
+    document.getElementById("results").innerHTML = "";
+    document.getElementById("table").style = "display: block;"
+    document.getElementById("name").innerHTML = names[index].name;
+    document.getElementById("age").innerHTML = names[index].age;
+    document.getElementById("fireSaved").innerHTML = names[index].fireSaved;
+    document.getElementById("currentStation").innerHTML = names[index].currentStation;
+}
+
 
 function report() {
     var x = document.getElementById("x").value;
