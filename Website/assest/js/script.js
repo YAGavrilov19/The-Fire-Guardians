@@ -1,8 +1,9 @@
 
+
 function searchNames() {
     document.getElementById("results").innerHTML = ""
-    searchBar = document.getElementById("search").value.toLowerCase();
-    let possibleResults = names.filter(elem => elem.toLowerCase().startsWith(searchBar));
+    searchBar = document.getElementById("search").value.toLowerCase;
+    let possibleResults = names.filter(elem => elem.toLowerCase.startsWith(searchBar));
 
     for (let result of possibleResults) {
         document.getElementById("results").innerHTML += "<li>" + result + "</li>";
@@ -59,7 +60,11 @@ function submitAcc() {
     let name = document.getElementById("name").value;
     let pass = document.getElementById("pass").value;
     if (name = adminAccs[0].name && pass == adminAccs[0].pass) {
-        document.getElementById("nav").style = "display: block"
-        document.getElementById("login").style = "display: none"
+        window.location.href = "index.html";
+
+    }
+    if (name = adminAccs[0].name && pass == adminAccs[0].pass) {
+        window.location.href = "index.html";
+
     }
 }
