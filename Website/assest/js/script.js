@@ -41,7 +41,7 @@ function report() {
         zoom: 3
     });
 
-    var geojson = {
+    var geo = {
         features: [{
             geometry: {
                 type: 'Point',
@@ -50,7 +50,7 @@ function report() {
 
         },]
     };
-    geojson.features.forEach(function (marker) {
+    geo.features.forEach(function (marker) {
 
         var el = document.createElement('div');
         el.className = 'marker';

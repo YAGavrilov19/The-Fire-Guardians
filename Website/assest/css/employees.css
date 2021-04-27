@@ -6,6 +6,23 @@ body
   background-size: cover;
 }
 
+#table {
+
+  color:white;
+  text-align: center;
+  font-size: x-large;
+}
+#results {
+  position: absolute;
+  left: 37%;
+  top:70%;
+  background-color: white;
+  list-style-type:none;
+}
+ol+a:hover{
+  background-color: black;
+}
+
 #particles-js {
   position: absolute;
   padding: 0;
