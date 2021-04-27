@@ -60,8 +60,6 @@ function submitAcc() {
     let pass = document.getElementById("pass").value;
     if (name = adminAccs[0].name && pass == adminAccs[0].pass) {
         document.getElementById("nav").style = "display: block"
-    }
-    if (name = adminAccs[0].name && pass == adminAccs[0].pass) {
-        document.getElementById("nav").style = "display: block"
+        document.getElementById("login").style = "display: none"
     }
 }
