@@ -6,12 +6,6 @@ body
   background-size: cover;
 }
 
-#table {
-
-  color:white;
-  text-align: center;
-  font-size: x-large;
-}
 #results {
   position: absolute;
   left: 37%;

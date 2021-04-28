@@ -7,14 +7,11 @@ body
 }
 
 p{
-  position: relative;
-  left:10%;
   color: white;
   font-size: x-large;
   overflow: visible;
-  height: 100px;
-  width: 800px;
 }
+
 #particles-js {
   position: absolute;
   padding: 0;

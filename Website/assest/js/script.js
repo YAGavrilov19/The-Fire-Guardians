@@ -20,6 +20,8 @@ function showID(index) {
 
     document.getElementById("results").innerHTML = "";
     document.getElementById("table").style = "display: block;"
+    document.getElementById("cardd").style = "display: block;"
+    document.getElementById("cardd-body").style = "display: block;"
     document.getElementById("name").innerHTML = names[index].name;
     document.getElementById("age").innerHTML = names[index].age;
     document.getElementById("fireSaved").innerHTML = names[index].fireSaved;

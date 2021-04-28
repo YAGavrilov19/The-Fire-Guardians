@@ -55,40 +55,33 @@
         </ol>
       </div>
     </div>
-  </nav><br>
-  <table id="table" style="display: none;" width="10000px">
-    <tr>
-      <th width="240px">
-        Name
-      </th>
-      <th width="140px">
-        Age
-      </th>
-      <th width="160px">
-        Fires Saved
-      </th>
-      <th width="300px">
-        Current Station
-      </th>
-    </tr>
-    <tr>
-      <td id="name">
+  </nav>
 
-      </td>
+  <div class="container">
+    <div class="card" id="cardd" style="display: none;">
+      <div class="card-body" id="cardd-body" style="display: none;">
+        <table class="table-light" id="table" style="display: none;">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Age</th>
+              <th scope="col">Fire Saved</th>
+              <th scope="col">Current Station</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row" id="name"></td>
+              <td id="age"></td>
+              <td id="fireSaved"></td>
+              <td id="currentStation"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
 
-      <td id="age">
-
-      </td>
-
-      <td id="fireSaved">
-
-      </td>
-
-      <td id="currentStation">
-
-      </td>
-    </tr>
-  </table>
   <script src="../assest/js/names.js"></script>
   <script src="../assest/js/script.js"></script>
   <script src="../assest/js/particles.js"></script>
