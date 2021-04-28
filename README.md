@@ -1,5 +1,5 @@
 <p align = "center">
-  <img src = "assest/img/logo.png" width = 200px height = 350px>
+  <img src = "https://imgur.com/pj6QSAu.png" width = 200px height = 350px>
   </p>
   </p>
   <h1 align = "center"> The Fire Guardians </h1>
@@ -21,11 +21,6 @@
   <p align = "center">
     Our main idea is to facilitate and automate the Burgas Fire Department. This can be made possible by automatic data recording and a much faster fire response process. Because the second thing does not depend so much on the system as on the employees, we focused on automation. 
   </p>
-  <hr/>
-    <p align = "center"><a href = "https://dtbodurov19.github.io/Flare/">See our site</a></p>
-    <hr>
-    <p align = "center"><a href = "https://ndpeshev19.github.io/Flare-documentation/">See Our Backend Documentation</a></p>
-    <hr>
    <h1 align = "center"> Technologies Used : </h1>
    <p align = "center">
     We used HTML for our structure </p>
